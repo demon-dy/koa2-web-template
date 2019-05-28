@@ -1,0 +1,50 @@
+{
+  "name": "koa2-web-tenplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start",
+    "dev": "npm run eslint && nodemon ./start.js",
+    "prd": "pm2 start start",
+    "eslint": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.0",
+    "dotenv": "^7.0.0",
+    "glob": "^7.1.3",
+    "jsonwebtoken": "^8.5.0",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6",
+    "koa-json": "^2.0.2",
+    "koa2-router-decors": "0.0.5",
+    "loadsh": "0.0.4",
+    "log4js": "^4.0.2",
+    "node-uuid": "^1.4.8",
+    "ramda": "^0.26.1",
+    "pg": "^7.9.0",
+    "request": "^2.88.0",
+    "sequelize": "^4.31.0",
+    "util": "^0.11.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/plugin-proposal-decorators": "^7.3.0",
+    "@babel/plugin-transform-runtime": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/register": "^7.0.0",
+    "@babel/runtime": "^7.3.4",
+    "apidoc": "^0.17.7",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "editorconfig": "^0.15.3",
+    "eslint": "^5.15.3",
+    "nodemon": "^1.8.1"
+  }
+}

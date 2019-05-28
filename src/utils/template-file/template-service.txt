@@ -1,0 +1,11 @@
+import ${className}Dao from '../dao/${fileName}';
+import BaseService from '../../lib/base-service';
+import statusCode from "../../utils/status-code";
+class ${className}Server extends BaseService{
+    constructor() {
+        super(${className}Dao);
+    }
+
+}
+
+export default new ${className}Server();
