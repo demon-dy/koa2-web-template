@@ -29,7 +29,7 @@
     "ramda": "^0.26.1",
     "pg": "^7.11.0",
     "request": "^2.88.0",
-    "sequelize": "^5.1.0",
+    "sequelize": "^5.15.1",
     "util": "^0.11.1"
   },
   "devDependencies": {
